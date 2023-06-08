@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: johndockerapp
-        image: johnwitch/assign2webapp:v1
+        image: johnwitch/jcassign:v1
         ports:
         - containerPort: 80
