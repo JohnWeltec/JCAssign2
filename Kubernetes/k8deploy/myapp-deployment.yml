@@ -14,7 +14,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - name: demobookk8s
+      - name: johndockerapp
         image: johnwitch/assign2webapp:v1
         ports:
         - containerPort: 80
