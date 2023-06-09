@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: johnweltecjcassign 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: johnweltecjcassign
+  template:
+    metadata:
+      labels:
+        app: johnweltecjcassign 
+    spec:
+      containers:
+        - name: johnweltecjcassign 
+          image: johncontainerr.azurecr.io/johnweltecjcassign
+          ports:
+          - containerPort: 8080
